@@ -9,7 +9,7 @@ project(test1 VERSION 1.0.0 LANGUAGES C)
 include_directories(inc)
 
 ## 查找 pthread 库
-#find_package(Threads REQUIRED)
+
 
 # 添加C源文件
 set(C_SOURCE_FILES
